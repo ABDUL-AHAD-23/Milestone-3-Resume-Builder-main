@@ -1,0 +1,103 @@
+
+
+body {
+    font-family: 'Ariel', Times, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background : linear-gradient(135deg, #c6c0c087, #746e6e, #403d3d) ;
+}
+
+form {
+    margin: auto;
+    background : radial-gradient( circle, #1a6868, #090909);
+    border-radius: 8px;
+    box-shadow: 0 0 25px #c2911ee6;
+    padding: 20px;
+    max-width: 550px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+fieldset {
+    border: 3px solid #c2911ee6;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background : radial-gradient( circle, #0b3838, #090909);
+}
+
+legend {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: white;
+
+}
+
+input,textarea {
+    margin-top: 4px;
+    font-size: 15px;
+    color : black;
+    padding: 8px;
+    width: calc(100% - 1px);
+    background : linear-gradient(135deg, #c6c0c087, #746e6e, #474646) ;
+    border: 2px solid #c2911ee6;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+::placeholder {
+color : black ;
+}
+
+button {
+    display: block;
+
+    width: 50%;
+    background-color: #333535 ;
+    color: white;
+    border-color: white ;
+    border-radius: 4px;
+    box-shadow: 1px 1px  15px #c2911ee6;
+    margin-top: 10px;
+    margin-left : 130px ; 
+    font-size: 18px ; 
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button :hover {
+    color: #c2911ee6;
+}
+
+#resume-display {
+    max-width: 550px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #c2911ee6;
+    border-radius: 8px;
+    background : radial-gradient( circle, #0f4747, #090909);
+    box-shadow: 0 0 15px rgb(229, 104, 104);
+}
+
+#resume-display h2 {
+    color: white;
+}
+#resume-display h3 {
+    color: white;
+}
+
+#resume-display p {
+    color: white;
+}
+
